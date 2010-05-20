@@ -19,6 +19,8 @@ As a plugin:
     ./script/plugin install git://github.com/paulca/paths_of_glory.git
 
 Or as a gem. Add this to your environment.rb:
+  
+    gem install paths_of_glory
 
     config.gem 'paths_of_glory'
 
@@ -29,6 +31,14 @@ Then generate the migration:
 And run the migration:
 
     rake db:migrate
+    
+This creates the tables.
+
+Then, in your User model:
+
+    class User < ActiveRecord::Base
+      include Achievements
+    end
 
 Basic Usage
 ===========
