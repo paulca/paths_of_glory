@@ -53,10 +53,6 @@ You can run the tests by checking out the code into vendor/plugins of a Rails ap
 
     rake
 
-It also comes with a set of cucumber features:
-
-    cucumber
-
 About me
 ========
 
