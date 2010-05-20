@@ -21,8 +21,8 @@ class <%= class_name %> < Achievement
   # Comment out below for once-off achievements
   # def self.award_achievements_for(user)
   #   return unless user
-  #   return if user.has_achievement?(self, level[:level])
-  #   user.award_achievement(self, level[:level])
+  #   return if user.has_achievement?(self)
+  #   user.award_achievement(self)
   # end
   
 end
