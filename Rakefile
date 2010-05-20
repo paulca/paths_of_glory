@@ -24,11 +24,11 @@ PKG_FILES = FileList[
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
-    s.name = "achievement_system"
+    s.name = "paths_of_glory"
     s.version = "0.1.0"
     s.author = "Paul Campbell"
     s.email = "paul@rslw.com"
-    s.homepage = "http://www.github.com/paulca/achievement_system"
+    s.homepage = "http://www.github.com/paulca/paths_of_glory"
     s.platform = Gem::Platform::RUBY
     s.summary = "Getting you started on the road to achievements."
     s.files = PKG_FILES.to_a
