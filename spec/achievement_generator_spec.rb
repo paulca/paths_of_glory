@@ -30,7 +30,9 @@ describe AchievementGenerator do
   end
   
   it "should make them beautiful" do
-    File.read(observer_file).should match(/GloryObserver < ActiveRecord::Observer/)
+    generated_code = File.read(observer_file)
+    generated_code.should match(/GloryObserver < ActiveRecord::Observer/)
+    generated_code.should match(/Glory\.award/)
   end
   
   
