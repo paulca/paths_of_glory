@@ -25,14 +25,13 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
     s.name = "paths_of_glory"
-    s.version = "0.1.4"
+    s.version = "0.1.5"
     s.author = "Paul Campbell"
     s.email = "paul@rslw.com"
     s.homepage = "http://www.github.com/paulca/paths_of_glory"
     s.platform = Gem::Platform::RUBY
     s.summary = "Getting you started on the road to achievements."
     s.files = PKG_FILES.to_a
-    s.require_path = "lib"
     s.has_rdoc = false
     s.extra_rdoc_files = ["README.md"]
   end
