@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{paths_of_glory}
-  s.version = "0.1.4"
+  s.version = "0.1.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Paul Campbell"]
@@ -29,7 +29,6 @@ Gem::Specification.new do |s|
      "generators/paths_of_glory/paths_of_glory_generator.rb",
      "generators/paths_of_glory/templates/20100311101933_create_achievements.rb",
      "paths_of_glory.gemspec",
-     "rails/init.rb",
      "spec/achievement_generator_spec.rb",
      "spec/achievement_spec.rb",
      "spec/blueprints.rb",
