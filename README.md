@@ -40,6 +40,10 @@ Then, in your User model:
       include Achievements
     end
 
+and in config/environment.rb, add app/models/achievements to your load path:
+
+    config.load_paths += %W( #{RAILS_ROOT}/app/models/achievements )
+
 Basic Usage
 ===========
 
