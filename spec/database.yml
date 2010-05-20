@@ -1,0 +1,21 @@
+sqlite:
+  :adapter: sqlite
+  :database: spec/paths_of_glory.sqlite.db
+
+sqlite3:
+  :adapter: sqlite3
+  :database: spec/paths_of_glory.sqlite3.db
+
+postgresql:
+  :adapter: postgresql
+  :username: postgres
+  :password: postgres
+  :database: paths_of_glory_test
+  :min_messages: ERROR
+
+mysql:
+  :adapter: mysql
+  :host: localhost
+  :username: root
+  :password: password
+  :database: paths_of_glory_test
