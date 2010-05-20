@@ -22,7 +22,7 @@ Or as a gem. Add this to your environment.rb:
   
     gem install paths_of_glory
 
-    config.gem 'paths_of_glory'
+    config.gem 'paths_of_glory', :lib => false
 
 Then generate the migration:
 

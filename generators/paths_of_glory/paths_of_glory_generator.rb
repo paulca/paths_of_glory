@@ -25,6 +25,10 @@ To generate a new Achievement, run:
 
     ./script/generate achievement Glory
 
-where 'Glory' is the name of the achievement."
+where 'Glory' is the name of the achievement.
+
+Good luck!
+
+"
   end
 end
