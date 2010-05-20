@@ -40,6 +40,10 @@ The pattern is basically:
 Create an achievement:
 
     ./script/generate achievement Glory
+    
+This gives you `app/models/achievements/glory.rb` and `app/models/achievements/glory_observer.rb` with some bootstrapped code.
+
+You're on your own after that. Have fun!
 
 
 Running the tests
