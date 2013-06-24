@@ -2,16 +2,16 @@ class Achievement < ActiveRecord::Base
 
   belongs_to :user
   
-  named_scope :not_notified, :conditions => {:notified => false}
-  named_scope :recent, :order => "created_at desc"
-  named_scope :kind_of, lambda { |type| {:conditions => {:type => type.to_s}}} do
+  scope :not_notified, :conditions => {:notified => false}
+  scope :recent, :order => "created_at desc"
+  scope :kind_of, lambda { |type| {:conditions => {:type => type.to_s}}} do
     def current
       order("level desc").limit(1).first
     end
   end
   
-  named_scope :order, lambda { |order| {:order => order} }
-  named_scope :limit, lambda { |limit| {:limit => limit} }
+  scope :order, lambda { |order| {:order => order} }
+  scope :limit, lambda { |limit| {:limit => limit} }
   
   class << self
     def levels
